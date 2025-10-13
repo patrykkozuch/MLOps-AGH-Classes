@@ -1,10 +1,12 @@
 from pydantic_settings import BaseSettings
 from pydantic import field_validator
+import os
 
 
 class Settings(BaseSettings):
     ENVIRONMENT: str
     APP_NAME: str
+    API_KEY: str = os.environ.get("API_KEY", "")
 
     @field_validator("ENVIRONMENT")
     @classmethod

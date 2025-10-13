@@ -8,5 +8,6 @@ dependencies = [
     "pre-commit>=4.3.0",
     "pydantic-settings>=2.11.0",
     "python-dotenv>=1.1.1",
+    "pyyaml>=6.0.3",
     "xenon>=0.9.3",
 ]
