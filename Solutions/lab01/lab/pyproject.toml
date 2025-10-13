@@ -6,4 +6,5 @@ readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
     "pre-commit>=4.3.0",
+    "xenon>=0.9.3",
 ]
