@@ -1,0 +1,3 @@
+[submodule "Tasks"]
+	path = Tasks
+	url = https://github.com/j-adamczyk/MLOps_course_AGH
