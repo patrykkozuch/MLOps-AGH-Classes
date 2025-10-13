@@ -1,7 +1,7 @@
 import os
 import argparse
 from dotenv import load_dotenv
-from settings import Settings
+from lab.settings import Settings
 import yaml
 
 

@@ -1,6 +1,6 @@
 import os
 import pytest
-from settings import Settings
+from lab.settings import Settings
 
 
 @pytest.mark.parametrize("env", ["dev", "test", "prod"])

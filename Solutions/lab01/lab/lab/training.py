@@ -31,7 +31,7 @@ def train_model(X, y, class_names):
     return model
 
 
-def save_model(model, filename="model.pkl"):
+def save_model(model, filename="models/iris_rf.pkl"):
     joblib.dump(model, filename)
     print(f"Model saved to {filename}")
 

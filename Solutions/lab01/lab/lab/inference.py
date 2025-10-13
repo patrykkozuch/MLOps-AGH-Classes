@@ -2,7 +2,7 @@ import joblib
 from sklearn.ensemble import RandomForestClassifier
 
 
-def load_model(filename="model.pkl") -> RandomForestClassifier:
+def load_model(filename="models/iris_rf.pkl") -> RandomForestClassifier:
     model = joblib.load(filename)
     print(f"Model loaded from {filename}")
     return model
