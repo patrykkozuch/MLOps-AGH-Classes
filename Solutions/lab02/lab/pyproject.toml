@@ -1,0 +1,19 @@
+[project]
+name = "MLOps_course_AGH_lab_02"
+version = "1.0.0"
+description = ""
+readme = "README.md"
+
+requires-python = "==3.11.*"
+
+dependencies = [
+    "duckdb",
+    "jupyter",
+    "matplotlib",
+    "pandas",
+    "pandas-stubs==2.3.2.250926",
+    "psycopg[binary]",
+    "pyarrow",
+    "ruff",
+    "scipy",
+]
