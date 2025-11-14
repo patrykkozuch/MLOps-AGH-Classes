@@ -13,6 +13,7 @@ dependencies = [
     "jupyter",
     "mlflow",
     "numpy",
+    "optuna>=4.6.0",
     "pandas",
     "pyarrow",
     "ruff",
