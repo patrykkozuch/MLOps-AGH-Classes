@@ -1,2 +1,5 @@
 [core]
     analytics = false
+    remote = local_remote
+['remote "local_remote"']
+    url = ../remote_data
