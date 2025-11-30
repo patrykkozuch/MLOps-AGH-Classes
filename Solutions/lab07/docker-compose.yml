@@ -1,0 +1,16 @@
+services:
+  torch-inference:
+    build:
+      dockerfile: torch_inference/Dockerfile
+      context: .
+    ports:
+      - "8001:8000"
+    container_name: torch-inference
+
+  onnx-inference:
+    build:
+      dockerfile: onnx_inference/Dockerfile
+      context: .
+    ports:
+      - "8002:8000"
+    container_name: onnx-inference
