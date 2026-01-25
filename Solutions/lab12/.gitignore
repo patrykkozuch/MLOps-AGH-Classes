@@ -1,0 +1,6 @@
+.env
+data
+.uv_cache
+.venv
+plugins
+logs
